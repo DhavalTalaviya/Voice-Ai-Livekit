@@ -96,6 +96,7 @@ Seamless audio streaming with natural conversation flow, voice activity detectio
 - Validated prompt variables
 - Type hints throughout
 
+```
 voice-ai-project/
 ├── agent/
 │   ├── agent_minimal_working.py  # Test the agent with minimal working options
@@ -119,6 +120,7 @@ voice-ai-project/
 |── .env.example                  # Example env file
 |── pyproject.toml                # Dependencies & config
 └── requirements.txt              # Pip requirements
+```
 
 ## Quick Start
 
