@@ -1,0 +1,7 @@
+{
+  "trunk_ids": [],
+  "name": "my-inbound-trunk",
+  "numbers": ["+1234567890"],
+  "allowed_addresses": [],
+  "metadata": "{}"
+}

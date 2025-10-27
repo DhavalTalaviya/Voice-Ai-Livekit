@@ -1,0 +1,11 @@
+{
+  "rule": {
+    "dispatch_rule_direct": {
+      "room_name": "call-{callID}",
+      "pin": ""
+    }
+  },
+  "trunk_ids": [],
+  "name": "default-dispatch",
+  "metadata": "{}"
+}

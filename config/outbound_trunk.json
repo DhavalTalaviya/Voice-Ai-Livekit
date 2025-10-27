@@ -1,0 +1,8 @@
+{
+  "name": "my-outbound-trunk",
+  "address": "sip.example.com",
+  "numbers": ["+1234567890"],
+  "auth_username": "username",
+  "auth_password": "password",
+  "metadata": "{}"
+}

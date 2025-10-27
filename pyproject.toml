@@ -1,0 +1,28 @@
+[project]
+name = "voice-ai-agent"
+version = "0.1.0"
+description = "Voice AI agent with LiveKit"
+requires-python = ">=3.9"
+dependencies = [
+    "pycparser==2.22",
+    "livekit-agents[deepgram,elevenlabs,openai,silero,speechmatics,turn-detector,anthropic,google,azure,tavus]~=1.0",
+    "livekit-plugins-noise-cancellation~=0.2.4",
+    "python-dotenv",
+    "pylint"
+]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "C90"]
+ignore = ["E203"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.3",
+]
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = ["fixme","broad-except","logging-fstring-interpolation"]
+
+[tool.setuptools]
+packages = ["agent", "config", "telephony", "models", "prompts", "memory" , "scripts", "tests"]
