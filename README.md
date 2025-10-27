@@ -1,75 +1,71 @@
-# 🗣️Voice AI Agent with LiveKit
+# 🗣️ LiveKit Voice AI Agent
 
 A production-ready, enterprise-grade conversational voice AI agent with multi-channel support, built on LiveKit Agents. Features modular prompt management, persistent memory, type-safe architecture, and seamless telephony integration for building intelligent voice assistants that work across web, mobile, and phone calls.
 
-🎯 What This Project Does
+## 🎯 What This Project Does
+
 This is a complete voice AI solution that enables natural, human-like conversations through:
 
-🎙️ Real-time Voice Conversations - Low-latency speech-to-text, LLM processing, and text-to-speech pipeline
-📞 Multi-Channel Support - Works on web browsers, mobile apps, and traditional phone calls (SIP/PSTN)
-🧩 Modular Prompt System - JSON-based templates with Jinja2 rendering for easy customization
-🧠 Conversation Memory - SQLite-backed persistent storage for user profiles and conversation history
-🔧 Configurable AI Providers - Swap between multiple STT, LLM, and TTS providers (Deepgram, OpenAI, Anthropic, Cartesia, ElevenLabs, etc.)
-🧾 Type-Safe Architecture - Pydantic models throughout for robust, maintainable code
-✅ Production Ready - Ruff/Black formatted, comprehensive tests, CI/CD ready
+* 🎙️ **Real-time Voice Conversations** - Low-latency speech-to-text, LLM processing, and text-to-speech pipeline
+* 📞 **Multi-Channel Support** - Works on web browsers, mobile apps, and traditional phone calls (SIP/PSTN)
+* 🧩 **Modular Prompt System** - JSON-based templates with Jinja2 rendering for easy customization
+* 🧠 **Conversation Memory** - SQLite-backed persistent storage for user profiles and conversation history
+* 🔧 **Configurable AI Providers** - Swap between multiple STT, LLM, and TTS providers (Deepgram, OpenAI, Anthropic, Cartesia, ElevenLabs, etc.)
+* 🧾 **Type-Safe Architecture** - Pydantic models throughout for robust, maintainable code
+* ✅ **Production Ready** - Ruff/Black formatted, comprehensive tests, CI/CD ready
 
-👥 Who It's For
-Developers & Engineers
+## 👥 Who It's For
+
+### Developers & Engineers
 Build voice-enabled applications without starting from scratch. Perfect for:
+* Creating AI phone assistants for businesses
+* Adding voice interfaces to existing products
+* Prototyping conversational AI solutions
+* Learning modern AI agent architecture
 
-Creating AI phone assistants for businesses
-Adding voice interfaces to existing products
-Prototyping conversational AI solutions
-Learning modern AI agent architecture
-
-Businesses
+### Businesses
 Deploy intelligent voice agents for:
+* **Customer Support** - 24/7 automated first-line support
+* **Appointment Scheduling** - Healthcare, beauty, professional services
+* **Lead Qualification** - Sales and marketing automation
+* **Phone Receptionists** - Call routing and information gathering
+* **Order Taking** - Restaurants, e-commerce, service bookings
 
-Customer Support - 24/7 automated first-line support
-Appointment Scheduling - Healthcare, beauty, professional services
-Lead Qualification - Sales and marketing automation
-Phone Receptionists - Call routing and information gathering
-Order Taking - Restaurants, e-commerce, service bookings
+### Industries
+* 🏥 **Healthcare** - HIPAA-compliant appointment booking, patient triage
+* 🏢 **Enterprise** - Internal helpdesk, HR assistance
+* 🛍️ **E-commerce** - Order status, product inquiries
+* 🏨 **Hospitality** - Hotel/restaurant reservations
+* 📞 **Call Centers** - Automated tier-1 support
 
-Industries
+## ✨ Key Features
 
-🏥 Healthcare - HIPAA-compliant appointment booking, patient triage
-🏢 Enterprise - Internal helpdesk, HR assistance
-🛍️ E-commerce - Order status, product inquiries
-🏨 Hospitality - Hotel/restaurant reservations
-📞 Call Centers - Automated tier-1 support
-
-
-✨ Key Features
-Voice-to-LLM Real-time Interaction
+### Voice-to-LLM Real-time Interaction
 Seamless audio streaming with natural conversation flow, voice activity detection, and turn-taking.
-Multi-Provider Flexibility
 
-STT: Deepgram, AssemblyAI, Groq, Azure, Google
-LLM: OpenAI, Anthropic, Groq, Google Gemini, Cerebras
-TTS: Cartesia, ElevenLabs, OpenAI, Azure, Google
+### Multi-Provider Flexibility
+* **STT**: Deepgram, AssemblyAI, Groq, Azure, Google
+* **LLM**: OpenAI, Anthropic, Groq, Google Gemini, Cerebras
+* **TTS**: Cartesia, ElevenLabs, OpenAI, Azure, Google
 
-Intelligent Memory System
+### Intelligent Memory System
+* User profile management
+* Conversation history across sessions
+* Context-aware responses
+* Personalized interactions
 
-User profile management
-Conversation history across sessions
-Context-aware responses
-Personalized interactions
+### Enterprise-Grade Code Quality
+* Type-safe with Pydantic models
+* Black & Ruff formatted
+* 80%+ test coverage
+* Pre-commit hooks
+* CI/CD ready
 
-Enterprise-Grade Code Quality
-
-Type-safe with Pydantic models
-Black & Ruff formatted
-80%+ test coverage
-Pre-commit hooks
-CI/CD ready
-
-Telephony Integration
-
-Inbound call handling (receive calls)
-Outbound calling (make calls)
-SIP trunk configuration
-Call routing and IVR
+### Telephony Integration
+* Inbound call handling (receive calls)
+* Outbound calling (make calls)
+* SIP trunk configuration
+* Call routing and IVR
 
 ## Features
 
